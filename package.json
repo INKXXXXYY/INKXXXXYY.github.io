@@ -4,7 +4,8 @@
     "vue-router": "^4.2.4"
   },
   "scripts": {
-    "serve": "vue-cli-service serve"
+    "serve": "vue-cli-service serve",
+	  "build": "vue-cli-service build"
   }
 
 }
