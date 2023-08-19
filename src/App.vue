@@ -45,11 +45,3 @@ header {
   }
 }
 </style>
-<script>
-	export default {
-	  created() {
-	    this.$http.headers.common['X-Content-Type-Options'] = 'nosniff';
-	  }
-	}
-
-</script>
