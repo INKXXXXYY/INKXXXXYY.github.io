@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
@@ -43,5 +43,51 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
+}
+</style>
+ -->
+<!-- 以上是原始内容 --> 
+<!-- 日历 -->
+<!-- <template>
+  <div class="app">
+    <h1>Web端日历样式记事本</h1>
+    <calendar />
+  </div>
+</template>
+
+<script>
+import Calendar from './components/Calendar.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Calendar,
+  },
+};
+</script>
+
+<style>
+.app {
+  text-align: center;
+}
+</style> -->
+
+ 
+ <!-- 日历2 -->
+<template>
+  <div class="app">
+    <router-view />
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App',
+};
+</script>
+
+<style>
+.app {
+  /* text-align: center; */
 }
 </style>
